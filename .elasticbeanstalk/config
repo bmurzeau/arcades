@@ -1,0 +1,14 @@
+[global]
+ApplicationName=arcades
+AwsCredentialFile=/Users/bastien/.elasticbeanstalk/aws_credential_file
+DevToolsEndpoint=git.elasticbeanstalk.eu-west-1.amazonaws.com
+EnvironmentName=arcades-env
+EnvironmentTier=WebServer::Standard::1.0
+EnvironmentType=SingleInstance
+InstanceProfileName=aws-elasticbeanstalk-ec2-role
+OptionSettingFile=/Users/bastien/Documents/PredicSis/sources/tests/arcades/.elasticbeanstalk/optionsettings.arcades-env
+RdsEnabled=No
+Region=eu-west-1
+ServiceEndpoint=https://elasticbeanstalk.eu-west-1.amazonaws.com
+SolutionStack=64bit Amazon Linux 2014.03 v1.0.1 running Ruby 2.0 (Puma)
+
